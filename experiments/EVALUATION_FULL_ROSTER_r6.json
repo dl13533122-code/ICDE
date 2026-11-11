@@ -1,0 +1,28 @@
+{
+  "freeze_utc": "2026-10-06T05:19:58.504295+00:00",
+  "purpose": "Close full Electricity roster physical evidence gap identified before task closure; preserve all original R6 subset and negative results",
+  "n": 370,
+  "queries": 55,
+  "data": "All370 original UCI IDs, processed row100000; full original holdout utility evidence reused without rerunning",
+  "workload": "Exact existing R3 group8/group W (55 original rows), not invented replicas or categorical conversion",
+  "reuse": "Original R3 partition-metadata, independent, robust-fixed-block-SDP-complete and unaware-cycle-uniform designs at base rho0.5; same safety factors. Signature-aware cycle from existing public construction",
+  "budget": "epsilon1/delta1e-6,22 prepared attempts,deltaG5e-7 and unchanged B5 finite parameters",
+  "physical_placement": "4fu peers,366fy1 peers; existing measured two-host TLS/SSH overlay;8CPU affinity and BLAS1",
+  "methods": [
+    "b5",
+    "b6",
+    "independent",
+    "signature",
+    "sdp",
+    "unaware"
+  ],
+  "b6": "max interval8, exact configured rational errors, grid4096 per host, caps each0.8*B5max; if infeasible full Pareto frontier minmax; independent fallback retained",
+  "diagnostics": "Original fixed0.7/1.05 skew caps, zero residual, bad interleaved order; public cap ratios0.85/0.90/0.95/1 before report outcomes; deploy first feasible grid cap plus fixed-design modulo3 workload shift",
+  "trials": 10,
+  "exposed_aborts_per_case": 1,
+  "fresh_retries_per_case": 1,
+  "secret_noise": "Fresh OS random coins; public scenario seed20261006, no secret seed export",
+  "metrics": "Identical source-frame, TLS/SSH bytes, sampler/setup/query timings, MSE/CI and exact answers as original R6; public build/planner wall and allocation/RSS recorded",
+  "failure_policy": "Preserve failed configs/logs, do not relax caps, change privacy/precision or silently substitute baseline",
+  "freeze_timestamp_source": "Original policy file mtime before any full370 execution; original minute placeholder corrected without changing experiment terms"
+}

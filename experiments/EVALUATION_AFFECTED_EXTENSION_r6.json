@@ -1,0 +1,10 @@
+{
+ "source":"user-authorized B6 affected scheduling, fixed public ratios and shift before new extension results",
+ "preserve_original_frozen_negatives":true,
+ "cap_ratios":[0.85,0.90,0.95,1.0],
+ "caps":"each host at ratio * original B5 maximum modeled host frame load; includes public l0",
+ "deployment":"first feasible GRID plan in fixed increasing ratio order; if all infeasible, record no deployment; keep original 0.8 negative",
+ "shift":"the originally frozen full-frontier minload design and public W plus one modulo3 row; routes rebuilt from signatures without changing mechanism, roster, sensitivity, finite precision or budget",
+ "methods":"one grid cap B6 and one fixed-design workload shift per original dataset, same ten trials,22 attempt accountant,4 local peers and fy1 remainder",
+ "no_utility_based_selection":true
+}

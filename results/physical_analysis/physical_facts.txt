@@ -1,0 +1,14 @@
+Snapshot status: complete
+Figure: rendered
+PlannedCases: 17
+ObservedCases: 17
+PlannedAttempts: 202
+ObservedAttempts: 202
+ChargedAttempts: 202
+MainOrdinarySuccesses: 160
+NoSharingOrdinarySuccesses: 10
+ForcedAbortObserved: 16
+FreshRetrySuccesses: 16
+ModelFrameChecked: 176
+ModelFrameMismatches: 0
+ReadbackIssues: 0

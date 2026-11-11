@@ -1,0 +1,14 @@
+{
+  "implementation": {
+    "sha256": "6c2aba36e56343f395fc8aa0b64e2424cdbc70aa0db07b9b3a62ff1abe82d109",
+    "bytes": 1143395,
+    "file_alias": "ICDE02_minimal_reproducibility.zip",
+    "filename_note": "English distribution alias; the SHA-256 identifies the original supplied archive."
+  },
+  "figures": {
+    "sha256": "3ed9e90f32be0831b88403e663e7d08c33b5fd7c298ce735eb80ccaaed39e925",
+    "bytes": 2297011,
+    "file_alias": "ICDE02_figure_data_20261111.zip",
+    "filename_note": "English distribution alias; the SHA-256 identifies the original supplied archive."
+  }
+}

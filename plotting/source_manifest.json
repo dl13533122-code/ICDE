@@ -1,0 +1,129 @@
+{
+  "source_zip": "ICDE02_figure_data_20261111.zip",
+  "source_zip_sha256": "3ed9e90f32be0831b88403e663e7d08c33b5fd7c298ce735eb80ccaaed39e925",
+  "files": [
+    {
+      "file": "data/fig1_activation/panel_a_heatmap_general_activation.csv",
+      "rows": 54,
+      "sha256": "a84822930a87665c0dd9e7e47a7781f8250c299cbe8c8b67b050412d937c23aa",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig1_activation/panel_b_heatmap_uniform_activation.csv",
+      "rows": 54,
+      "sha256": "4a4aa17729fb7c94b78c667875dbbec01b0b0b08f71f98fa8c249d15c2d812b4",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig1_activation/panel_c_scatter_U_vs_H.csv",
+      "rows": 216,
+      "sha256": "444194e5e51c451766db72349b062ebb973481903b2609cbb88087755f2f4fed",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig2_local_gap/panel_a_triangle_brackets.csv",
+      "rows": 5,
+      "sha256": "1ed98fe1b4ffb17671f5994018045aee024522172ff69e3f92671ed049e93681",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig2_local_gap/panel_b_candidate_excess_points.csv",
+      "rows": 32,
+      "sha256": "32340b98236559466c5908cf04931b828f15e2a886665cb1658dae8bf93df80f",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig2_local_gap/panel_b_candidate_excess_summary.csv",
+      "rows": 16,
+      "sha256": "f002f518915fd29ca938e69ae1d8994559eb121cf450cd9d5f1defdb8191a0b1",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig3_scale/panel_a_sparse_planning_times.csv",
+      "rows": 17,
+      "sha256": "21cb0622ae7a66f29272bfb6a95b92a0cc25480fcfffb0179a6fda322004f522",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig3_scale/panel_b_full_comparison_times.csv",
+      "rows": 12,
+      "sha256": "1e507e134c16e887f8a489ab6ed4a867ab32f2ac45dfbb8022fdf4945fb10e22",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig3_scale/panel_c_loss_at_1024.csv",
+      "rows": 8,
+      "sha256": "a69a23e48b7bc5ed8e39933fdbb8c48c7242d9d0f5de98a2402d5d1febf0cc36",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig4_grouping/panel_a_categories_frontier.csv",
+      "rows": 16,
+      "sha256": "16befcb0a1dd80b5fbfe192c62bd9db140977bdd2ab5614d247514814c98921e",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig4_grouping/panel_b_ranges_frontier.csv",
+      "rows": 16,
+      "sha256": "b8e2093668982a0d3d11057661ea9cdc7632af4e2252195bd53aedb63e8c8fed",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig4_grouping/panel_c_paired_plan_changes.csv",
+      "rows": 24,
+      "sha256": "ceaf99a906c0b282cb4967306c145f25a03d2a09a34e08f116b2c79f0bee9629",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig5_finite_utility/panel_a_intel_utility.csv",
+      "rows": 12,
+      "sha256": "abfa6406a957ae9d3aa8c9dce8689298e53afcceb47ce246379096976a348872",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig5_finite_utility/panel_b_electricity_utility.csv",
+      "rows": 12,
+      "sha256": "fa381b168ea2d20f4c1cb1cf2269197b0cf136ed129de81ae8bf18bd54fd6144",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig5_finite_utility/panel_c_paired_H_minus_U.csv",
+      "rows": 8,
+      "sha256": "844f95bd6fc573bee7c327bae89ebeaada48a7b7e1d4907923ce53c6e07e6c3e",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig6_physical_execution/panel_a_matched_host_traffic.csv",
+      "rows": 8,
+      "sha256": "44857e7a9cbdb49e3bc40735d4b7ff1e20662389613903aa9ea61180223f6a38",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig6_physical_execution/panel_b_matched_online_time.csv",
+      "rows": 8,
+      "sha256": "bcdf9cdcf65d82c96ba13faeb33368047d4cff240d338fae5be62f974faf69a8",
+      "reextracted_identical": true
+    },
+    {
+      "file": "data/fig6_physical_execution/panel_c_partial_reuse.csv",
+      "rows": 3,
+      "sha256": "5943073435dbcfce149b5aa4808677ee91879376de209fe25a60921f4ed85955",
+      "reextracted_identical": true
+    }
+  ],
+  "paired_reuse_source": {
+    "file": "data/fig6_physical_execution/reuse_pairs.json",
+    "sha256": "ea16a5714c12d8e31f614694f82dc8b845250dd1ed93032521c3bec8b0d99913",
+    "measurements": 30,
+    "note": "Unmodified ten paired ratios per metric extracted from the supplied physical_summary.json."
+  },
+  "supplement_execution_source": {
+    "file": "data/supplement_execution/paired_comparisons.json",
+    "sha256": "6495243723e201a0a8b678cd2b34ef71846f29076a82301c882d597242904111",
+    "comparisons": 8,
+    "modeled_mse_ratios": 8,
+    "paired_execution_ratios": 160,
+    "note": "Unmodified full-precision values from the supplied physical_summary.json; supplementary reuse uses the existing 30 paired ratios."
+  },
+  "source_zip_name_is_distribution_alias": true
+}

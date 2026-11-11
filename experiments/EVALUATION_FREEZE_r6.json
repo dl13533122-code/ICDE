@@ -1,0 +1,18 @@
+{
+  "version": "B6-public-pre-results-2026-10-06",
+  "purpose": "affected physical scheduling only; reuse all R3/R4/R5 full data and negative evidence",
+  "dataset_configs": {"electricity": "experiments/protocol_config_electricity_certified_partition_finite_r5.json", "intel": "experiments/protocol_config_intel_certified_partition_finite_r5b.json"},
+  "epsilon_total": 1, "delta_total": 0.000001, "delta_G": 0.0000005, "attempt_budget": 22,
+  "finite_parameters": "unchanged B5 b256/u64/eta180/grid20/Arb512; no precision inflation",
+  "trial_repetitions": 10, "routing_modes": ["sharing"],
+  "freshness": "actual sampler uses fresh OS secret coins; public scenario/tuning seed20261006, never noise-seed publication",
+  "physical_placement": {"fu_peers": 4, "remaining_peers": "fy1", "overlay": "existing measured TLS over bidirectional SSH; same-host loopback"},
+  "declared_family": {"order": "identity public roster; separately predetermined interleaved bad order", "max_interval": 8, "gamma_min": 0.05, "leader_choices": ["lowest member on fu else lowest member", "lowest member on fy1 else lowest member"], "independent_fallback": true, "cross_group_dedup": false},
+  "grid_bytes_per_host": 4096,
+  "cap_scenarios": ["balanced: each modeled endpoint cap=0.8*(B5 public predicted max host frames)", "skew: fu=0.7 and fy1=1.05 times B5 respective predicted host frames", "tight-independent: caps equal public singleton-independent host-frame vector", "infeasible: l0 only (nonzero workload)", "bad-order: interleave i modulo8", "workload-shift: add public modulo3 query while preserving prior design for shift diagnostic"],
+  "deployments": ["B5 scalar partition rerouted in same fixed-frame family", "B6 balanced cap or if infeasible B6 public full frontier min-max normalized endpoint plan", "independent", "signature cycle", "workload unaware cycle", "robust fixed-support SDP"],
+  "matched_baselines": "reuse existing certified finite configs for four methods; construct unaware with same accountant/finite backend and recertify; reroute each within its fixed supports",
+  "no_feasible_case_policy": "report infeasible; do not change caps or return overloaded plan",
+  "metrics": ["exact configured analytic error", "observed workload/coordinate MSE and t CI over ten fresh epochs", "max-node and per-host modeled fixed application frames", "measured TLS endpoint bytes and SSH ciphertext separately", "setup, rigorous sampler/release and query wall latency", "p50/p99 and raw ten trial count", "planner wall, tracemalloc peak and label counts", "one-time provisioning, abort and retry cost"],
+  "comparison": "same real input fixture, workload, bounded contributions, finite precision, privacy budget, public placement, fixed routes and trials; not matched categorical LDP"
+}

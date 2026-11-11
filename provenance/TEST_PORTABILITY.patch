@@ -1,0 +1,13 @@
+--- original/tests/test_foundations.py
++++ tests/test_foundations.py
+@@ -28,7 +28,9 @@
+     x=spectral_group(8,kind);c=certify(x['a'],x['edges'],x['w'],1,.5)
+     assert c['passed'] and c['scenario_count']==9 and c['constraint_count']==64
+     assert max(max(q['rho_upper']) for q in c['scenarios']) <= x['bound']/2+1e-10
+-    assert loss(np.ones((1,8)),x['a'],x['edges'],x['w'])==sum(x['a'])
++    # NumPy and Python may sum the same floating-point values in different orders.
++    assert np.isclose(loss(np.ones((1,8)),x['a'],x['edges'],x['w']),
++                      sum(x['a']), rtol=8*np.finfo(float).eps, atol=0.)
+ 
+ def test_transfer_and_accountant():
+     a=np.ones(3);e=support(3,'complete');w=np.ones(3)

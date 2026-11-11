@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this code or the archived results."
+type: software
+title: "Code and Data for When Does Correlated Noise Help? Workload-Aware Private Analytics under Collusion"
+version: "2026.11.11"
+authors:
+  - family-names: Ding
+    given-names: Lv
+    affiliation: Taiyuan University of Technology
+    email: dinglv0099@link.tyut.edu.cn
+  - family-names: Xing
+    given-names: Ruijie
+    affiliation: Taiyuan University of Technology
+    email: 2024002195@link.tyut.edu.cn
+  - family-names: Du
+    given-names: Rong
+    affiliation: Taiyuan University of Technology
+    email: durong@tyut.edu.cn
+  - family-names: Fu
+    given-names: Yue
+    affiliation: Taiyuan University of Technology
+    email: fuyue@tyut.edu.cn
+  - family-names: Chen
+    given-names: Yongle
+    affiliation: Taiyuan University of Technology
+    email: chenyongle@tyut.edu.cn

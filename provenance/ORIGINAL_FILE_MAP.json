@@ -1,0 +1,1309 @@
+[
+  {
+    "source_archive": "implementation",
+    "source_member": "src/baselines.py",
+    "path": "src/baselines.py",
+    "sha256": "75e8b212ba5335228532aa9d1618f605f87c545476ee769e2c3f5dcf1da63ccf",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/finite_reports.py",
+    "path": "src/finite_reports.py",
+    "sha256": "541bf8571a3a9c0bbd4cdd6420104d453957adbf86922ce5925c480754b13ba7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/intel.py",
+    "path": "src/intel.py",
+    "sha256": "ce7dd01c2de969655175587163f00913e0370d7c1b15ee0ac4745353c3377b53",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/joint_ablation.py",
+    "path": "src/joint_ablation.py",
+    "sha256": "b5d42e47a658b22dba359c7aae83618d3cde513b1dcdf1cb5a40a9e90bb4cf20",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/noise.py",
+    "path": "src/noise.py",
+    "sha256": "8bf78d354d85001f49e56a35e21e79d8db80d855fd14fff3979c1fb53fb9388c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/partition.py",
+    "path": "src/partition.py",
+    "sha256": "0a94c25f87808c1ff7e744f4f77e367adab2cbb5fffedb6c799dc102f42ff76d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/physical.py",
+    "path": "src/physical.py",
+    "sha256": "d7a361f06f20b31d7f6333cf9fb1efe1c1bfbc601286cc251c17572ad25b1115",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/planner.py",
+    "path": "src/planner.py",
+    "sha256": "931540ec5e02a89e5038f9ec0040ccd7b95a6e1c27827060cabfc0755e950846",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/protocol.py",
+    "path": "src/protocol.py",
+    "sha256": "0630aeba0f0f93dadac948bb539e641a5700620ae17ce47a4d5558fa9e3209f4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/release_gate.py",
+    "path": "src/release_gate.py",
+    "sha256": "722d92bf7c3c4b1316a8354df272928b4897df1ba80f9e96038fb670b5ee61d1",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/vector.py",
+    "path": "src/vector.py",
+    "sha256": "efc444b79f139c295827e836da99e2c334a5086b476f1e0dc36f2071682fefca",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "src/workloads.py",
+    "path": "src/workloads.py",
+    "sha256": "534ce6ff71f47d8179c0a17363bdd75b667f0bea9f9e1042ddadf1a1d7a2ba45",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/acquire.py",
+    "path": "scripts/acquire.py",
+    "sha256": "e748fc07887de2786eebf2647044cc3357d63662bbfad4be1332e24f03b16dc4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/audit_finite_r5b.py",
+    "path": "scripts/audit_finite_r5b.py",
+    "sha256": "8471e0f29b0cb64d2a1e01f6e830b993fdc38aefd44cb1cd037c704f38e7cb52",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/audit_joint_ablation_inputs_20261013_v1.py",
+    "path": "scripts/audit_joint_ablation_inputs_20261013_v1.py",
+    "sha256": "bf9d9009866c34bf4114dfe7d06efcf44adf1d3378e2bd185982c9122e7cc830",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/audit_owned_terminal_r5b.py",
+    "path": "scripts/audit_owned_terminal_r5b.py",
+    "sha256": "3e7c8221a8b2b31320ee4be11529ca5878cf99a8dfc113d5b7658d5fcea354ef",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/audit_owned_terminal_r6.py",
+    "path": "scripts/audit_owned_terminal_r6.py",
+    "sha256": "bfc11e756a70321dcf0cd76bf7eb84bcb0ac0945c442f2c08ea2582b3b8e9450",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/candidate_pipeline.py",
+    "path": "scripts/candidate_pipeline.py",
+    "sha256": "5807d13cc36a1d38e736aa5f2ef5ecbba6097c822da5df09173ca02b58a588aa",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/close_r6.py",
+    "path": "scripts/close_r6.py",
+    "sha256": "eab30d93afd5748a9fa3b16176864b511326a29fc1a45d43f5a85b996992d8b5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/count_histogram.py",
+    "path": "scripts/count_histogram.py",
+    "sha256": "1b9f99da323ee0a7403d14786eec0bba1948f0f93d8c8b6aa38c6a925c55940f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/finalize_identity_r5b.py",
+    "path": "scripts/finalize_identity_r5b.py",
+    "sha256": "ecf55ec4f23712af576371fe0e57332568cb1efa12f71801b59c01fee397abf4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/finalize_r6.py",
+    "path": "scripts/finalize_r6.py",
+    "sha256": "24bfa3116dc11eb8f3f98d30e1f499b1e8e1761290cfcd3be847fb04be377cd2",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/finite_prepare_r5.py",
+    "path": "scripts/finite_prepare_r5.py",
+    "sha256": "6bc781a0c40282ba9d1c2a7ef7c50f42773a3b94b8ed2fa602a2ed733ce16ea4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/finite_sweep_r5.py",
+    "path": "scripts/finite_sweep_r5.py",
+    "sha256": "bc54795e9b3979de0c232976171b31f5a1cba4d41ea07dfe4983ac62405dbefa",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/full_utility.py",
+    "path": "scripts/full_utility.py",
+    "sha256": "639dccefb53cd9ea7b71a154c2dce7826feef8ba05308b95e547b5581de7bbc4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/intel_protocol_r4.py",
+    "path": "scripts/intel_protocol_r4.py",
+    "sha256": "c33d276ae0ccf9bf3faa7b6d68639c9a02bad213a44377f11f2cff1bb3e7157e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/intel_utility_r4.py",
+    "path": "scripts/intel_utility_r4.py",
+    "sha256": "aca6fbc4e1dd3106952bce16d11801aa3c7d4557cea820278fdd6748c1c847eb",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/joint_ablation_20261013_v1.py",
+    "path": "scripts/joint_ablation_20261013_v1.py",
+    "sha256": "fff5ebc53868d9cdf91d32cbf218f382b5594504b02639188fd95a7651690cda",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/joint_ablation_matched_fu_desktop125_20261013_v1.py",
+    "path": "scripts/joint_ablation_matched_fu_desktop125_20261013_v1.py",
+    "sha256": "fe23d4558bcb1729b63e2b134c21c217aaeb3ef30beec1e3e1ace51430136bd1",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/ldp_reference_r6.py",
+    "path": "scripts/ldp_reference_r6.py",
+    "sha256": "a7e9f8172337db29891c204b654beead845d0ae946da590897d02972a2cc384f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/manuscript_evidence_r5b.py",
+    "path": "scripts/manuscript_evidence_r5b.py",
+    "sha256": "d76b05c65424b069130c92c9509f2731d7f9ebc1e25673442c8bf2b83eebc577",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/microcases.py",
+    "path": "scripts/microcases.py",
+    "sha256": "e8e89cf92f02d39979a344ce7081e44eb7f16627b00adbbda170e6ff8a0eff49",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/partition_diagnostics.py",
+    "path": "scripts/partition_diagnostics.py",
+    "sha256": "167c778ad07605be3f840bffc17cad5bc7a6fcb1349da9f222fcb33f4575080f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/partition_utility.py",
+    "path": "scripts/partition_utility.py",
+    "sha256": "91eb549df879503fe0816187cba83389d95db210867d6f38722836a576bfce4a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/physical_extension_r6.py",
+    "path": "scripts/physical_extension_r6.py",
+    "sha256": "05e40e036339e1d744168de9dd9d03a6641987351c721457d6121e49421977f6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/physical_full_roster_r6.py",
+    "path": "scripts/physical_full_roster_r6.py",
+    "sha256": "045204514c567139247f8c1541c76c451f9eb37b9350c0d916832ea60a6831fb",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/physical_full_sweep_r6.py",
+    "path": "scripts/physical_full_sweep_r6.py",
+    "sha256": "0b84f92a95c7821de9588b0285068a6ddb171222bbf70c8ef13243963e1508f4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/physical_prepare_r6.py",
+    "path": "scripts/physical_prepare_r6.py",
+    "sha256": "269de7ed2be099c27b9ccb2859439226e1ecb4963c38f8dc289bee129f354d8f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/physical_sweep_r6.py",
+    "path": "scripts/physical_sweep_r6.py",
+    "sha256": "0e1334db0f6b9ac447cfde3363c46bf4d39fd856448e35820a283637b4719e76",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/prepare_matched_fu_desktop125_20261013_v1.py",
+    "path": "scripts/prepare_matched_fu_desktop125_20261013_v1.py",
+    "sha256": "ff3f8e477ad94e6fe34b8724d6e08ea898aab6904ce192474bc80df8ba0d3103",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/prepare_protocol.py",
+    "path": "scripts/prepare_protocol.py",
+    "sha256": "9fde4a55b76049b11a100ba59896b4467db9b4a80f18eb6a682ac9ba701692b8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/protocol_run.py",
+    "path": "scripts/protocol_run.py",
+    "sha256": "86d4b7848a98ae09eec73a680979686c3039069c4c52551f6f22f2bedd817f6d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/protocol_scale_completion_r3.py",
+    "path": "scripts/protocol_scale_completion_r3.py",
+    "sha256": "8ec20fe815258b1dad717d7f65feb77c9305f576d44192bfccbf09083ace16d7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/protocol_sweep_r3.py",
+    "path": "scripts/protocol_sweep_r3.py",
+    "sha256": "6a091f5b39ae2bc18004fa601fbf13baf13abc4c916c7d0f24a3975cbd667156",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/public_caps_r6.py",
+    "path": "scripts/public_caps_r6.py",
+    "sha256": "3018cb7a8bf1dfbe6ab2d93df0f45b5c0a33bcaadfcacd874c97c63bfc5e127d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/reconcile_traceability_r5b.py",
+    "path": "scripts/reconcile_traceability_r5b.py",
+    "sha256": "75ad5b55cf2c6ba0947369c29030915f54811e8e3ef3a7a85b2cb4cd81e0ebbc",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/reconstruct_h1_harmonic_20261109.py",
+    "path": "scripts/reconstruct_h1_harmonic_20261109.py",
+    "sha256": "81416a8d845a887c2c562ad498d47e82b94bba0c005384bb503438fc8d7e84e5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/render_joint_ablation_20261013_v1.py",
+    "path": "scripts/render_joint_ablation_20261013_v1.py",
+    "sha256": "0233526a25dce15fa6c1ba5845c2eef48a21daded5b920231abaabac776174d8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/repair_intel_utility_r4.py",
+    "path": "scripts/repair_intel_utility_r4.py",
+    "sha256": "25ea4c361b8d1c0033f6b383654320d6fea7e848f47d6f40fec4632ab72ac96b",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/report_finite_r5.py",
+    "path": "scripts/report_finite_r5.py",
+    "sha256": "3f8c793f0628e3b20a660ad32aa879b35c23db2a5f2f2bf02ec4cc41b7b637f8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/report_intel_r4.py",
+    "path": "scripts/report_intel_r4.py",
+    "sha256": "405dfcde8495b8fd206613d3f889809f8565373bc45e875db13fcf2176b381e5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/report_matched_fu_desktop125_20261013_v1.py",
+    "path": "scripts/report_matched_fu_desktop125_20261013_v1.py",
+    "sha256": "c66cf68026127c95dfe7d125d8e0fb3fedb2990134ecea3a53ba8584307c0cae",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/report_physical_r6.py",
+    "path": "scripts/report_physical_r6.py",
+    "sha256": "86d15c27194fc45fd6cddfcec5519180b08acfb5418930eb13154eb52a4ce8b9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/report_r3.py",
+    "path": "scripts/report_r3.py",
+    "sha256": "f0fceca83e7cb88af1f17b59fd4501e62e12071defda74c2f57b622a4bd38fb5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/resources.py",
+    "path": "scripts/resources.py",
+    "sha256": "9fc8cb796ab1d87d832dfffdc0f5318b6a70a488899dc867ff690c267cb6f3c5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/scale.py",
+    "path": "scripts/scale.py",
+    "sha256": "f9927824a9c1fdf56a694267fd36f1658d2083a14dc139c6285501eb7d75ace6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/small_sdp_certificates_r3.py",
+    "path": "scripts/small_sdp_certificates_r3.py",
+    "sha256": "a5bd5e23116b08386b310d9f746f1e3e5fd451ca75b02f91015f33a1de6e46cd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/ssh_byte_meter.py",
+    "path": "scripts/ssh_byte_meter.py",
+    "sha256": "415546465054ccf9c82f53da296472f67185682add0701a1e43a2d9f6eee3a14",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/summarize_h1_parent_stats_20261109.py",
+    "path": "scripts/summarize_h1_parent_stats_20261109.py",
+    "sha256": "41183f9396ccb00f3483a5cf97faa9bf46032f442975249a05be30fb2644495c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/typeset_matched_fu_desktop125_20261013_v1.py",
+    "path": "scripts/typeset_matched_fu_desktop125_20261013_v1.py",
+    "sha256": "9a81dbff3e72918b1d8bd4a7c678c9ba6c5d2c3bf0957828ca5189de6e51062b",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/validate_b2_r4.py",
+    "path": "scripts/validate_b2_r4.py",
+    "sha256": "fa6fd3e700fef9dbb0294aa3c41f6777b3b580ffbee8583a3485a8e8d2af8bbc",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/validate_data.py",
+    "path": "scripts/validate_data.py",
+    "sha256": "35d3e94c8c9048df6d5e16403a8d927b81701958673bc73ac7dd5c11b24942a9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/validate_v1_r3.py",
+    "path": "scripts/validate_v1_r3.py",
+    "sha256": "7567fe315d106d7b2606c5a0e00f06e880266595956723c967cb42f57f37438d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/verify_h1_reconstruction_20261109.py",
+    "path": "scripts/verify_h1_reconstruction_20261109.py",
+    "sha256": "b6603c62f6a041b96d19894b473901b00dfd34fe832723c1b2749ad70565cd60",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/verify_p0.py",
+    "path": "scripts/verify_p0.py",
+    "sha256": "154adf56e2b35b564aada06b48c72a96b157e57a58bebea7ab265f7e5e4e1a05",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/verify_small_sdp_r3.py",
+    "path": "scripts/verify_small_sdp_r3.py",
+    "sha256": "a0832e1aea0172103b54ba3b7ffd485d386585be9552d20387a591d289ce14d5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "scripts/whisper_hbc.py",
+    "path": "scripts/whisper_hbc.py",
+    "sha256": "b12c1c69e4960992b5981463b93692d3af9c17c111b2446a22337a18f3e97ce3",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_finite_protocol.py",
+    "path": "tests/test_finite_protocol.py",
+    "sha256": "05a661716ef51242bb44f8d694d26a14c186347e5b6db25e538f38c1433192c8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_finite_reports.py",
+    "path": "tests/test_finite_reports.py",
+    "sha256": "18a961a5ad93e211eca0d1de6dd2d7cae063f038d681856adfa67bcdb27e37af",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_foundations.py",
+    "path": "tests/test_foundations.py",
+    "sha256": "ffb1d1bddf5646451f92f550e000a13126c79d99f0d1768125c87b555815b996",
+    "unchanged": false,
+    "distributed_sha256": "cd07e069e2bfd838db3f428eb1e13b72b9e0b80bbb67369e24d22bf0d723192c"
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_intel_roster.py",
+    "path": "tests/test_intel_roster.py",
+    "sha256": "d5f8e4d98acdc7eb93fb18aae33cd2c6bb23bf3ac15e4d3ffb7caee8f8b11a00",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_joint_ablation.py",
+    "path": "tests/test_joint_ablation.py",
+    "sha256": "33cc2b4cc8700436a5120e5562442005e4bb7265dddb0fdb4082382d3e979138",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_matched_privacy_scope.py",
+    "path": "tests/test_matched_privacy_scope.py",
+    "sha256": "1af641329cf07af4f95dba289661152708217732c025f0f324e4d00ce216bacc",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_partition.py",
+    "path": "tests/test_partition.py",
+    "sha256": "7cb43f8c4775baeb4121f2c6732b347e8383a5e2f722270f0943f2147afd3063",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_physical.py",
+    "path": "tests/test_physical.py",
+    "sha256": "96ce467db564688b4d0bf64f05ffb36d136ac41418fe6349ec854d0432c7def1",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_protocol.py",
+    "path": "tests/test_protocol.py",
+    "sha256": "b4c322abc315d588135f82206e4ac169df9885c36c354643c8cce8b871f5261f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_release_gate.py",
+    "path": "tests/test_release_gate.py",
+    "sha256": "721977e8ab81010cc38c3a00982aadf832f4692594ecf614c0f34dc4c02d268d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_scalable.py",
+    "path": "tests/test_scalable.py",
+    "sha256": "210187d7e5ab783a67153e0c6e604b901dae4d2b05bb125e8c1fd30409e52db9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "tests/test_vector.py",
+    "path": "tests/test_vector.py",
+    "sha256": "543d3754e357d70611c5a933681694c45b7af77bc1af043febbb9449c2b1314e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/b_h1_cap_sensitivity_20261106.py",
+    "path": "experiments/b_h1_cap_sensitivity_20261106.py",
+    "sha256": "41597a79aaa1420f341ef369e48d794dcfd6e01072ebfe13d688ad897734245e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/b_h1_pure_20261105.py",
+    "path": "experiments/b_h1_pure_20261105.py",
+    "sha256": "4fe52e588c622610358985d68694ab119dfb3bce5016364676096e6f7b6e5eb5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/EVALUATION_AFFECTED_EXTENSION_r6.json",
+    "path": "experiments/EVALUATION_AFFECTED_EXTENSION_r6.json",
+    "sha256": "13bb1f4e625447bdb4657b1c1522311a5a263574e2fc8057e20bd564bd8414e0",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/EVALUATION_FREEZE_r6.json",
+    "path": "experiments/EVALUATION_FREEZE_r6.json",
+    "sha256": "fa13e9f96bf8ced4b4dcb20b207e7eca53718367b56e8c6716c6929c415098e7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/EVALUATION_FULL_ROSTER_r6.json",
+    "path": "experiments/EVALUATION_FULL_ROSTER_r6.json",
+    "sha256": "041de38c184485fbe95d86f1e6039e3a6070fdd82107d60fe258977499c8e1d8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/gopa_original.json",
+    "path": "experiments/gopa_original.json",
+    "sha256": "62b7106a2c4866bcd443dda885de9fce02fb0624e00a2464abb98bb4ba528dbd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/LDP_REFERENCE_FREEZE_r6.json",
+    "path": "experiments/LDP_REFERENCE_FREEZE_r6.json",
+    "sha256": "0f42aa371ad7cb01d695baadb3512d2ca651a3a69830a3bf4ed400c1f3f8c5fd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/LDP_REFERENCE_RETRY_FREEZE_r6.json",
+    "path": "experiments/LDP_REFERENCE_RETRY_FREEZE_r6.json",
+    "sha256": "4631d944c222f1f98c0b32e8406af24ef5167567eb8d3dfb1a4b242504122a08",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config.json",
+    "path": "experiments/protocol_config.json",
+    "sha256": "e9ff600ceb613013cc72919e9521b91c6bda40e618d62a11c5ddca10320ad912",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_bad_order_partition_n32_r3.json",
+    "path": "experiments/protocol_config_bad_order_partition_n32_r3.json",
+    "sha256": "eeb7b1a4bca7d5126aa866a94e50ca57c0135a7ebc0ae7fab1a7639b2488493c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_b5_r6.json",
+    "path": "experiments/protocol_config_electricity_b5_r6.json",
+    "sha256": "dfa9393f91062fda8974387071d41768656cf8cdd398ad4cc8900acd1350ce8a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_b6_r6.json",
+    "path": "experiments/protocol_config_electricity_b6_r6.json",
+    "sha256": "411b0c740ada1e2b01612bb02adb6a9f27b127f5ab9fc417017b74edf91898b0",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_cap_r6.json",
+    "path": "experiments/protocol_config_electricity_cap_r6.json",
+    "sha256": "c7c1a8cad35a1b29218da4c6c5747bd18dc65acf3d4171831573c3d5f306e8c3",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_certified_partition_finite_r5.json",
+    "path": "experiments/protocol_config_electricity_certified_partition_finite_r5.json",
+    "sha256": "3843bc7923f56cf5571d8cb4f28de3b373a309f66aea4cba7085ab37c432aaa2",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_b5_r6.json",
+    "path": "experiments/protocol_config_electricity_full_b5_r6.json",
+    "sha256": "0825cb301e949cce3522b5358d471e409c561a0415f46894c172b67dd6f8a106",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_b6_r6.json",
+    "path": "experiments/protocol_config_electricity_full_b6_r6.json",
+    "sha256": "04fe6dbe6c875b3c3110cd3f4f2d36e06eb8d0c6c9308081167894e200919f99",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_cap_r6.json",
+    "path": "experiments/protocol_config_electricity_full_cap_r6.json",
+    "sha256": "4759d8e23d0d0a76bd24ae2f1855dca8d78c326bf822ad49db2538e02936bd46",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_independent_r6.json",
+    "path": "experiments/protocol_config_electricity_full_independent_r6.json",
+    "sha256": "8495a2cbd341187032bc38ec19536a435e1434008a2474d931c5d4f90874e9a0",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_matched_fu_desktop125_20261013_v1.json",
+    "path": "experiments/protocol_config_electricity_full_matched_fu_desktop125_20261013_v1.json",
+    "sha256": "684778decbee5f232f746fef51cdf98bc8daf7039e8c4f73795d831276e52db6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_sdp_r6.json",
+    "path": "experiments/protocol_config_electricity_full_sdp_r6.json",
+    "sha256": "f66768f7b53386b2c5474118ac2db982cf59a38a2808bfc947f6c60e10d1dc78",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_shift_r6.json",
+    "path": "experiments/protocol_config_electricity_full_shift_r6.json",
+    "sha256": "59bc39159550fe5ca5d5bacd355590035f63cb4d9bf77bf276abb475cb713dc3",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_signature_r6.json",
+    "path": "experiments/protocol_config_electricity_full_signature_r6.json",
+    "sha256": "0f626d718dfdeb5fe6e3c243b404dadc288419fa0f1c8a7d2dced062787ebe1d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_full_unaware_r6.json",
+    "path": "experiments/protocol_config_electricity_full_unaware_r6.json",
+    "sha256": "ed30c7d7a4347cb4160e5a6fbc5ba316a3b890a1752b50116690910b1867d525",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_independent_finite_r5.json",
+    "path": "experiments/protocol_config_electricity_independent_finite_r5.json",
+    "sha256": "1f5f962dadbe9f3b26499d41f5841006e752c21ae98879a7582232ed91f87bf8",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_independent_finite_r5_retry1.json",
+    "path": "experiments/protocol_config_electricity_independent_finite_r5_retry1.json",
+    "sha256": "3dbca8da09dd9a763093e1bde94d9ae84f0a1a9b697ade790aa499866793822a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_independent_r6.json",
+    "path": "experiments/protocol_config_electricity_independent_r6.json",
+    "sha256": "9a65d0db4cbf3f02b0a8a1bc018c469a347d3cf653df86676bafdf8089a88aae",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_robust_fixed_sdp_finite_r5.json",
+    "path": "experiments/protocol_config_electricity_robust_fixed_sdp_finite_r5.json",
+    "sha256": "acd3b5e592334ce21e2d3873d724ff5174dff2d70bff5e4e687a71e5419e142e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_sdp_r6.json",
+    "path": "experiments/protocol_config_electricity_sdp_r6.json",
+    "sha256": "fc27239095495e8b112066d6724b7e38aec8d836064c761bbdb09ca4a5fdc01d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_shift_r6.json",
+    "path": "experiments/protocol_config_electricity_shift_r6.json",
+    "sha256": "b2f10319df56b8bbe79fcda26531553ef4346b5bd714ebc1c2b7acffebf65538",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_signature_cycle_finite_r5.json",
+    "path": "experiments/protocol_config_electricity_signature_cycle_finite_r5.json",
+    "sha256": "7110953c500ee98651c084fb64ee88b3e347be0459f8c128948a67b1e1beed77",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_signature_r6.json",
+    "path": "experiments/protocol_config_electricity_signature_r6.json",
+    "sha256": "81545331c8724f5e4087ce631bdc20a615c915003b7690d3d579e772d6eb72dd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_electricity_unaware_r6.json",
+    "path": "experiments/protocol_config_electricity_unaware_r6.json",
+    "sha256": "722e97191fde33f1ef7c3b9944cc828afe16b7b336973fc9318081ba0fbac126",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_impaired_partition_n16_r3.json",
+    "path": "experiments/protocol_config_impaired_partition_n16_r3.json",
+    "sha256": "6e3244aa02fa7aeb7f2c1265f3fd7b15c01d51853f0b3ee169be99da5ee4640d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_b5_r6.json",
+    "path": "experiments/protocol_config_intel_b5_r6.json",
+    "sha256": "9301376ec045fd20639560f25563b8bfcbcb98e47e34c95a6499b10f95807b0d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_b6_r6.json",
+    "path": "experiments/protocol_config_intel_b6_r6.json",
+    "sha256": "ffb556ac031cde1d9d9c94b7ad650d4ec24d409362917544bcc9bbd221683a1e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_cap_r6.json",
+    "path": "experiments/protocol_config_intel_cap_r6.json",
+    "sha256": "6df83a4ab796e6ac7d25e032bdd1091ea171eaf4475f1ad6593aa736419e392a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_certified_partition_finite_r5b.json",
+    "path": "experiments/protocol_config_intel_certified_partition_finite_r5b.json",
+    "sha256": "ce31b3bd1c8fb6a6759d21d268cf4fc104de0b84e28aefec95d95f628479d2a6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_certified_partition_n54_r4.json",
+    "path": "experiments/protocol_config_intel_certified_partition_n54_r4.json",
+    "sha256": "67ecbb4f08c9d87c48aedf40e513c434ce76ed421a2e0e48e2fd9d88097107af",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_independent_finite_r5.json",
+    "path": "experiments/protocol_config_intel_independent_finite_r5.json",
+    "sha256": "db9162606b62001c9f87022ca2b55b2856fa19e28831aa0842d27cdcb298695d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_independent_n54_r4.json",
+    "path": "experiments/protocol_config_intel_independent_n54_r4.json",
+    "sha256": "21d241db9112a5d1db06f1670ce238f4ef8db160ce2a47ab72a356e83b314e53",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_independent_n54_r5.json",
+    "path": "experiments/protocol_config_intel_independent_n54_r5.json",
+    "sha256": "a657f81ef80c4bf4cef744a0ccd2e338a7c6f8c142dbd5a98bc549f6a31d1989",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_independent_r6.json",
+    "path": "experiments/protocol_config_intel_independent_r6.json",
+    "sha256": "9ad18bdacb7e7490831e9ae1f7ec3847b7d5d425a6731a4bf5f8b085c6e57235",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_matched_fu_desktop125_20261013_v1.json",
+    "path": "experiments/protocol_config_intel_matched_fu_desktop125_20261013_v1.json",
+    "sha256": "ddbf584906d21bd8b75288c0217206d414171a5d3792fc6e4d4a5d8e7a5e03cb",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_partition_n16_r3.json",
+    "path": "experiments/protocol_config_intel_partition_n16_r3.json",
+    "sha256": "5056137289df79872bbfa84c383f7dc596a15ace48fc9281844a3698d75c518c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_robust_fixed_sdp_finite_r5.json",
+    "path": "experiments/protocol_config_intel_robust_fixed_sdp_finite_r5.json",
+    "sha256": "e1064f24826b22b776a68ebe2ffb24bc57a9cfbf37d83c5ebed92fe7c55c765c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_robust_fixed_sdp_n54_r4.json",
+    "path": "experiments/protocol_config_intel_robust_fixed_sdp_n54_r4.json",
+    "sha256": "1f91f69686f9788e820609ff9a7ed7861585dffdb3eb71654e7c5b4b3654fc7d",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_sdp_r6.json",
+    "path": "experiments/protocol_config_intel_sdp_r6.json",
+    "sha256": "3c4252543161b5fce1ae6c207b643edf6cf3348ca50913be37bf92ec1c8a1c9e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_shift_r6.json",
+    "path": "experiments/protocol_config_intel_shift_r6.json",
+    "sha256": "2ac85f925ee4f494fbf45f1cc523b3ae4cfde0bc51ea1f170968168063c027f5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_signature_cycle_finite_r5.json",
+    "path": "experiments/protocol_config_intel_signature_cycle_finite_r5.json",
+    "sha256": "fb401ecac75588470bb1528573a8965ed642cf60cf8bb4059c65bbb8dda3ea34",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_signature_cycle_n54_r4.json",
+    "path": "experiments/protocol_config_intel_signature_cycle_n54_r4.json",
+    "sha256": "a2a6551c4a2d8b4d6e7d10ac7e2d9c72b9fad5bfffc90d66f49486ca52dfdee9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_signature_r6.json",
+    "path": "experiments/protocol_config_intel_signature_r6.json",
+    "sha256": "baa6edb4be1a3a69959b0e7ae290e3a44424359dc9b1b27178ecfc6533c35b8a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_unaware_cycle_n54_r4.json",
+    "path": "experiments/protocol_config_intel_unaware_cycle_n54_r4.json",
+    "sha256": "e47793dee653e2900dbee7baf09f8f882747af6fea354a231fd03d23f0322eed",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_intel_unaware_r6.json",
+    "path": "experiments/protocol_config_intel_unaware_r6.json",
+    "sha256": "32c905a8a62fecb2f9f80004b0408196b6f2316154ff43c66a14f0a607a068f4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_correlated_n32_r3.json",
+    "path": "experiments/protocol_config_matched_correlated_n32_r3.json",
+    "sha256": "67468d525cb86f0fb9b3d0c5fc8acac539ba0c7f5e949cc92c433cfd41a115f1",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_independent_n32_r3.json",
+    "path": "experiments/protocol_config_matched_independent_n32_r3.json",
+    "sha256": "6e00f530242d9476d9175e503a669dbace3feabe6e9a5e0f284098153912ef04",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_partition_n32_r3.json",
+    "path": "experiments/protocol_config_matched_partition_n32_r3.json",
+    "sha256": "a084784ebd5bbfb87f113a60b2a9c7c8cf15107913e31ced38677f123879cf57",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_robust_sdp_n32_r3.json",
+    "path": "experiments/protocol_config_matched_robust_sdp_n32_r3.json",
+    "sha256": "5e79d1e49f30d1db37b28bc32d7d2b8951a4c940c6686aef3dc2b1570dae88b2",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_unaware_n32_r3.json",
+    "path": "experiments/protocol_config_matched_unaware_n32_r3.json",
+    "sha256": "7a6c22ea73aaf076db23924b4d6cdd9ea511aec71bdcde780dd74c33e71cce99",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_matched_unaware_n32_r3_retry.json",
+    "path": "experiments/protocol_config_matched_unaware_n32_r3_retry.json",
+    "sha256": "cb97cf22145fd22fbdfd2ec40cf19dc1621ef290311d0d5932976bf7c9f280f4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_n16_delay.json",
+    "path": "experiments/protocol_config_n16_delay.json",
+    "sha256": "0e444cd829c4d0923aa1e9ad154392237159a35f5500dd8dedf02876f24990d7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_n32.json",
+    "path": "experiments/protocol_config_n32.json",
+    "sha256": "8dda2a71bb3e9518190384e0926e0248949987c3d74229249e1f3a5b0021d495",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_near_partition_n32_r3_retry.json",
+    "path": "experiments/protocol_config_near_partition_n32_r3_retry.json",
+    "sha256": "0d0c6b083851c44a8314183dff3a1f60c77b18a6a947414d68270a0b8af7d7e7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_n1024_r3.json",
+    "path": "experiments/protocol_config_partition_n1024_r3.json",
+    "sha256": "7837f5dcce1554d4ab65813c98d5dd3027cfb19d2776f07681e6b6575ea25c0f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_n16_r3.json",
+    "path": "experiments/protocol_config_partition_n16_r3.json",
+    "sha256": "49bf6dfd0a06b2083d77f666e3dd095b05e0fe9c37589146a0eaf5a1aa9f0c1e",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_n512_r3.json",
+    "path": "experiments/protocol_config_partition_n512_r3.json",
+    "sha256": "0ef53e889a70fc1c4bfc11267c831a04abe1c6a0b8cb665a64891a6c9405d9fa",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_scale_n128_r3.json",
+    "path": "experiments/protocol_config_partition_scale_n128_r3.json",
+    "sha256": "8eff900ed82a3edc87a1a7901d4f21bb304acf7229d86a8e66f08e7cb35c1d52",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_scale_n256_r3.json",
+    "path": "experiments/protocol_config_partition_scale_n256_r3.json",
+    "sha256": "97b2b3b0428d14128522e1027a0439d87757629a62d68c89d5513616b356bff5",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_scale_n64_r3.json",
+    "path": "experiments/protocol_config_partition_scale_n64_r3.json",
+    "sha256": "377c8087a59d7666bc300fc918ba7f222383a74cc42867ad8e0dfc6f2d9ec647",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_partition_scale_n8_r3.json",
+    "path": "experiments/protocol_config_partition_scale_n8_r3.json",
+    "sha256": "af0f973b29a9763ed04da6e7a13b636fee2cdfbf00e93f4fa941d241cb8bff72",
+    "unchanged": true
+  },
+  {
+    "source_archive": "implementation",
+    "source_member": "experiments/protocol_config_shift_partition_n32_r3.json",
+    "path": "experiments/protocol_config_shift_partition_n32_r3.json",
+    "sha256": "fd9fc94ac62d8fc5e9114668dafa9b37033447c5c6ecff359266aa40fb704fe4",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/case_methods.csv",
+    "path": "results/analysis/case_methods.csv",
+    "sha256": "5a0044f921c9dd065dc983ea0b3617e3675372cbad87a8d5f39beff87d730b42",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/dataset_coverage.csv",
+    "path": "results/analysis/dataset_coverage.csv",
+    "sha256": "f57d404542633e3687bb323080e1d64ce1cf5af4b0db114f889da96af24d8397",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/factual_strings.tex",
+    "path": "results/analysis/factual_strings.tex",
+    "sha256": "d863e84110ee56f3b41da76f8cd7633b5cde0c469465b69d75ff36700f94c135",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/group_plans.csv",
+    "path": "results/analysis/group_plans.csv",
+    "sha256": "ad2beba2dab01ff24505726561e2d703d66322e18fe735d95c08796696e556dd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/local_gaps.csv",
+    "path": "results/analysis/local_gaps.csv",
+    "sha256": "a05152443c463c42d4935926911da3e73735fb7a439dd7f172fdf85f9659a8fe",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/phase.csv",
+    "path": "results/analysis/phase.csv",
+    "sha256": "f5b725ad9b122a88cd9c7f749eb7a7455bec7ddf53b981c9e5c27e56fff6815a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/portfolios.csv",
+    "path": "results/analysis/portfolios.csv",
+    "sha256": "e59cd0fe93fa6947f5dd78def479e9b4397bd2f13dbed83430059e7308e8d898",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/table_coverage.tex",
+    "path": "results/analysis/table_coverage.tex",
+    "sha256": "9d93601e7353fd18c2da417b365ca06011e09a0eb214a7542c42b1542274a14f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/table_design.tex",
+    "path": "results/analysis/table_design.tex",
+    "sha256": "000afe3ceef8179212135baeacd7fc8cfe985c061dafc348c68d1f2878202582",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis/triangle.csv",
+    "path": "results/analysis/triangle.csv",
+    "sha256": "5e27a051d65c47a4817ae02e8a49fdc9c8d8472a0400b42d5eaeb4cb17be160f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/analysis_v3/summary.json",
+    "path": "results/analysis_v3/summary.json",
+    "sha256": "a528deb51db69b225cdc080e6d0bda2d6eee7216f6ec97f8366696d5b826bf7c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/input_snapshot.json",
+    "path": "results/physical_analysis/input_snapshot.json",
+    "sha256": "6fb9739cbf0918888f922ed90ee5c93aa38c1404252042d29f9739eba804c16c",
+    "unchanged": false,
+    "distributed_sha256": "4f9d04e30d96bd86f26cc75da3ca2dd6dd540071fbba3744396632c1eb3b5aa1",
+    "distribution_change": "English alias for the historical machine-root label; input hashes and measurements unchanged."
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_attempts.csv",
+    "path": "results/physical_analysis/physical_attempts.csv",
+    "sha256": "9cfd0abe79fb50c1945c7954a80bc3c7396573f8e423097cb6f64e8474541b83",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_cases.csv",
+    "path": "results/physical_analysis/physical_cases.csv",
+    "sha256": "ba7e3c35e83f313703640c526444b0809a2a0b5223eb62729d02f329e95574b6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_comparisons.csv",
+    "path": "results/physical_analysis/physical_comparisons.csv",
+    "sha256": "2602005a26a982538e073149fa0a3776d524018b7fd7bb7934908f477a512c38",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_facts.json",
+    "path": "results/physical_analysis/physical_facts.json",
+    "sha256": "d4f959a5161a71bd5bcb0d9bc27854f52dff84b254582f842cc6044a9c509697",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_facts.tex",
+    "path": "results/physical_analysis/physical_facts.tex",
+    "sha256": "80f14b5298e22c33386752a903e0a3c3a1dee34cc31992ae4b92cfb3b83fec97",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_facts.txt",
+    "path": "results/physical_analysis/physical_facts.txt",
+    "sha256": "9783a639ee7e29bf991860f247a4231b1aa837cc7fecfa3ce8c5151b1ef2ff84",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/physical_summary.json",
+    "path": "results/physical_analysis/physical_summary.json",
+    "sha256": "047d7d7212d707b2f4cb47f47f4bbe83db1f77801547a9a1e8dba2dfbd082a27",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "data/physical_analysis/processing_receipts.json",
+    "path": "results/physical_analysis/processing_receipts.json",
+    "sha256": "277bdc0a2a7ed1e6d4c5a51c57849a117c43927d12e38db0e4021da0a8e881bb",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "DATA_DICTIONARY.md",
+    "path": "docs/ARCHIVED_DATA_DICTIONARY.md",
+    "sha256": "e73c8958b6d72eb2d57c1857998658738a99d5330bbb678eac7cc708ff734de3",
+    "unchanged": false,
+    "distributed_sha256": "14edc2ff5cbb15788818f79a52853f70ab5476a7290aca7ea90d136e20736f8c",
+    "distribution_change": "English data dictionary, with paths updated to the current repository organization."
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/physical_plot.py",
+    "path": "scripts/archived_analysis/physical_plot.py",
+    "sha256": "d1736c9202464e24e5ab49d9f44232e6d210044ba9854abcb7e660f4f523cfcd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/physical_summary.py",
+    "path": "scripts/archived_analysis/physical_summary.py",
+    "sha256": "a918424dee2de3be8d7258037eab8321df61a56ec0adee6e8e1068c74b5966a9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/plot_results_v3.py",
+    "path": "scripts/archived_analysis/plot_results_v3.py",
+    "sha256": "6cdfebf0a65feaeb4b1ce00a58262522137a0368bb32218c72c09755460afccd",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/publication_refresh.py",
+    "path": "scripts/archived_analysis/publication_refresh.py",
+    "sha256": "d1b0a90fe3a2a68588a51aae8976a70b7f9fe6e5abcd5fafdb2a2ebd2066bb98",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/publish_results_v3.py",
+    "path": "scripts/archived_analysis/publish_results_v3.py",
+    "sha256": "1e210c74140d279110bf516bdeab4adba0bd8a95c370615e33b18d62c21fcf78",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/summarize_results.py",
+    "path": "scripts/archived_analysis/summarize_results.py",
+    "sha256": "3a62acc0ef47293ace98f40ea122a1bf4572cc2e19ebfa5f247215935fe201e2",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/archive/triangle_verify_independent.py",
+    "path": "scripts/archived_analysis/triangle_verify_independent.py",
+    "sha256": "e5c441dbef7f0045ff1382205eabf0ad0927fbc8a48a73c22e90aaa7130cbd38",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "scripts/extract_plotted_values.py",
+    "path": "scripts/extract_plotted_values.py",
+    "sha256": "9194d404f950554a89b3fbc9d59b678c7942baaeb27068ab144c4651f32126de",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table1_design/source.tex",
+    "path": "tables/table1_design/source.tex",
+    "sha256": "d0f4188a7aea4a2847e44c3fca1adf101fc103392c4b25edbba84416ffbe8df6",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table1_design/sources.json",
+    "path": "tables/table1_design/sources.json",
+    "sha256": "e842a6d91c401945e16ffe4557caaabfbc9bddbe09d9fc0e5096f9c24d700c3b",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table1_design/values.csv",
+    "path": "tables/table1_design/values.csv",
+    "sha256": "7957ae30a39e41022fbfdf6f0393f9402b06b0ba8dd0e6fbc0e9e3c24e65c27c",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table1_design/values_complete.csv",
+    "path": "tables/table1_design/values_complete.csv",
+    "sha256": "5a748ba9f26456a798d9cf9e063bb1964c19d491f3d0edc6fff37816935cb45f",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table2_data/source.tex",
+    "path": "tables/table2_data/source.tex",
+    "sha256": "228b1b9e9971423d5e2b8e8c5749d1978c40a1c8be8d2a30c9d85aca4c4fd0b9",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table2_data/sources.json",
+    "path": "tables/table2_data/sources.json",
+    "sha256": "8cfd54a719a2ad7971bc214d471a34d1202569e8971578bbdf3f8eed63a996c7",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table2_data/supporting_fields.csv",
+    "path": "tables/table2_data/supporting_fields.csv",
+    "sha256": "422491df9f297b6837aa97b892808c9b56dcc36a086b6f2bff6ed3f703f7f21a",
+    "unchanged": true
+  },
+  {
+    "source_archive": "figures",
+    "source_member": "tables/table2_data/values.csv",
+    "path": "tables/table2_data/values.csv",
+    "sha256": "d257e9dda2e5b7527b306b27a027adb669d1def8a9a18883b28fa8be13835061",
+    "unchanged": true
+  }
+]
