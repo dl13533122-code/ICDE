@@ -1,0 +1,25 @@
+{
+  "python": "3.13.2",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.2.0",
+    "mpmath": "1.4.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "python-flint": "0.9.0",
+    "cryptography": "50.0.2"
+  },
+  "threads": {
+    "OPENBLAS_NUM_THREADS": 2,
+    "OMP_NUM_THREADS": 2
+  },
+  "paper_reported_solver_versions": {
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "python-flint": "0.9.0"
+  }
+}

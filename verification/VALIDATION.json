@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-11-11",
+  "core_implementation_modules": 12,
+  "original_driver_scripts": 55,
+  "original_test_modules": 12,
+  "original_experiment_and_configuration_files": 70,
+  "unit_tests": {
+    "collected": 91,
+    "passed": 89,
+    "skipped": 2,
+    "failed": 0,
+    "skipped_tests": [
+      {
+        "test": "test_fixed_roster_includes_sensor_quality_and_calendar_absence",
+        "reason": "Original processed data not bundled: data/processed/intel_daily.json"
+      },
+      {
+        "test": "test_legacy_scalar_dataset_entrypoint_cannot_restore_intel_membership_strata",
+        "reason": "Original processed data not bundled: data/processed/electricity_verification.json, data/processed/electricity_kwh_clipped.f32"
+      }
+    ]
+  },
+  "original_unmodified_suite": {
+    "passed": 85,
+    "failed": 6,
+    "roundoff_equality_failures": 4,
+    "missing_data_failures": 2
+  },
+  "test_changes": "One comparison uses 8 floating-point epsilons; two integration tests skip only if their external processed inputs are absent.",
+  "strict_missing_data_mode_checked": true,
+  "core_algorithm_sources_unchanged": true,
+  "original_configs_unchanged": true,
+  "reextracted_csv_files": 21,
+  "reextracted_csv_bytes_identical": true,
+  "main_plot_panels": 17,
+  "main_plot_summary_rows": 489,
+  "supplemental_approximation_rows": 32,
+  "rendered_experimental_figures": 6,
+  "rendered_supplementary_figures": 1,
+  "figure_formats": [
+    "PDF",
+    "SVG",
+    "PNG"
+  ],
+  "all_plot_data_and_intervals_visible": true,
+  "demo": {
+    "owners": 8,
+    "queries": [
+      "global",
+      "group_0",
+      "group_1",
+      "range_0",
+      "range_1",
+      "overlap_0",
+      "overlap_1",
+      "overlap_2"
+    ],
+    "edges": 8,
+    "loss": 24.0,
+    "privacy_passed": true,
+    "worst_rho_upper": 0.4687499882816241,
+    "note": "Small synthetic implementation check; not a rerun of paper measurements."
+  },
+  "complete_measurement_rerun": false,
+  "raw_datasets_included": false,
+  "original_remote_hosts_contacted": false,
+  "original_archived_files_retained": 186,
+  "archived_files_byte_identical": 183,
+  "original_archived_test_files_modified": 1,
+  "project_wide_open_source_license_supplied": false,
+  "original_archived_documentation_or_path_metadata_files_modified": 2,
+  "distribution_language": "English",
+  "distribution_front_page_files_removed": true
+}

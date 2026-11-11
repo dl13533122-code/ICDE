@@ -1,0 +1,111 @@
+{
+  "panels": {},
+  "annotations": {
+    "reuse": {
+      "max_application_kib": {
+        "n": 10,
+        "median_percent": 39.85330073349633,
+        "min_percent": 39.85330073349633,
+        "max_percent": 39.85330073349633,
+        "paired_savings_percent": [
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633,
+          39.85330073349633
+        ]
+      },
+      "max_tls_kib": {
+        "n": 10,
+        "median_percent": 42.054188834524396,
+        "min_percent": 42.03964479910158,
+        "max_percent": 42.07199651450419,
+        "paired_savings_percent": [
+          42.049949931427456,
+          42.07199651450419,
+          42.05174473156317,
+          42.03964479910158,
+          42.050825749915745,
+          42.06043444015554,
+          42.05663293748563,
+          42.046523478957795,
+          42.06125580053441,
+          42.05813207374216
+        ]
+      },
+      "online_seconds": {
+        "n": 10,
+        "median_percent": 7.62739837589515,
+        "min_percent": 4.89497644929715,
+        "max_percent": 13.220695160857376,
+        "paired_savings_percent": [
+          7.880710611160568,
+          7.374086140629732,
+          5.806443623764701,
+          5.778969963639835,
+          11.310307555188881,
+          10.716018896549894,
+          13.220695160857376,
+          4.957352847879559,
+          9.24872380704398,
+          4.89497644929715
+        ]
+      }
+    }
+  },
+  "artist_boundary_warnings": [],
+  "data_range_checks": [
+    {
+      "figure": "supplement_execution",
+      "axis": 0,
+      "limits": [
+        0.15,
+        1.82,
+        -0.65,
+        7.6
+      ],
+      "data_bounds": [
+        0.15000000000000002,
+        1.6904372626415798,
+        -0.21,
+        7.21
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "supplement_execution",
+      "axis": 1,
+      "limits": [
+        0.0,
+        54.0,
+        -0.75,
+        2.65
+      ],
+      "data_bounds": [
+        4.89497644929715,
+        42.07199651450419,
+        -0.23,
+        2.23
+      ],
+      "all_data_and_intervals_visible": true
+    }
+  ],
+  "input_files": {
+    "data/supplement_execution/paired_comparisons.json": "6495243723e201a0a8b678cd2b34ef71846f29076a82301c882d597242904111",
+    "data/fig6_physical_execution/reuse_pairs.json": "ea16a5714c12d8e31f614694f82dc8b845250dd1ed93032521c3bec8b0d99913"
+  },
+  "data_definition": {
+    "comparisons": 8,
+    "modeled_mse_ratios": 8,
+    "execution_paired_ratios": 160,
+    "reuse_paired_ratios": 30,
+    "intervals": "Full range of ten paired repetitions, not confidence intervals",
+    "savings_formula": "100 * (1 - 1 / (no_reuse_i / reuse_i)); transform before median",
+    "vertical_offsets": "Display separation only; all x values are unchanged"
+  }
+}

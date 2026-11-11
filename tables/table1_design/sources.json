@@ -1,0 +1,225 @@
+{
+  "object_id": "table1_design",
+  "label": "tab:design",
+  "paper_number": "TABLE I",
+  "pdf_page": 9,
+  "frozen_latex_file": "provenance/frozen_latex/main.tex",
+  "frozen_latex_lines": {
+    "start": 924,
+    "end": 936
+  },
+  "values_csv": "tables/table1_design/values.csv",
+  "values_csv_sha256": "7957ae30a39e41022fbfdf6f0393f9402b06b0ba8dd0e6fbc0e9e3c24e65c27c",
+  "values_complete_csv": "tables/table1_design/values_complete.csv",
+  "values_complete_csv_sha256": "5a748ba9f26456a798d9cf9e063bb1964c19d491f3d0edc6fff37816935cb45f",
+  "summary_path": "data/analysis_v3/summary.json",
+  "summary_sha256": "a528deb51db69b225cdc080e6d0bda2d6eee7216f6ec97f8366696d5b826bf7c",
+  "cell_accounting": {
+    "rows": 6,
+    "row_labels": 6,
+    "displayed_numeric_cells": 12,
+    "accounted_cells": 18,
+    "populated_in_values_csv": 11,
+    "filled_in_values_complete_csv": 1,
+    "note": "18 accounted cells = 6 row labels + 12 displayed numeric cells. values.csv is the verbatim generator output; it leaves Finite reports/Workloads empty, so values_complete.csv restores that one cell from its archived source and records the source path in weighted_workloads_source. No cell is imputed."
+  },
+  "filled_cells": [
+    {
+      "row": "Finite reports",
+      "column": "weighted_workloads",
+      "filled_value": 8,
+      "source_path": "coverage.E.primary_instances"
+    }
+  ],
+  "column_sources": {
+    "row_label": "frozen main.tex tab:design Study column",
+    "configurations_display": "frozen main.tex tab:design Configurations column (paper typography)",
+    "configurations_ascii": "summary.coverage.<suite>.planned_cases",
+    "weighted_workloads": "summary.coverage.<suite>.workloads (E: coverage.E.primary_instances)",
+    "planned_cases": "summary.coverage.<suite>.planned_cases",
+    "observed_cases": "summary.coverage.<suite>.observed_cases",
+    "privacy_workload_conditions": "summary.coverage.<suite>.conditions (E: absent in summary)",
+    "weighted_workloads_note": "Table counts merge duplicate query rows and drop zero-frequency rows (frozen main.tex, Table I caption)."
+  },
+  "checks": [
+    {
+      "row": "Activation",
+      "column": "configurations_ascii",
+      "csv_value": 216,
+      "value_used": 216,
+      "source_path": "coverage.A.planned_cases",
+      "source_value": 216,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Activation",
+      "column": "weighted_workloads",
+      "csv_value": 66,
+      "value_used": 66,
+      "source_path": "coverage.A.workloads",
+      "source_value": 66,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Activation",
+      "column": "planned_cases",
+      "csv_value": 216,
+      "source_path": "factual_strings.tex \\ResultAPlanned",
+      "source_value": "216",
+      "match": true
+    },
+    {
+      "row": "Budgeted approximation",
+      "column": "configurations_ascii",
+      "csv_value": 32,
+      "value_used": 32,
+      "source_path": "coverage.B.planned_cases",
+      "source_value": 32,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Budgeted approximation",
+      "column": "weighted_workloads",
+      "csv_value": 5,
+      "value_used": 5,
+      "source_path": "coverage.B.workloads",
+      "source_value": 5,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Budgeted approximation",
+      "column": "planned_cases",
+      "csv_value": 32,
+      "source_path": "factual_strings.tex \\ResultBPlanned",
+      "source_value": "32",
+      "match": true
+    },
+    {
+      "row": "Sparse scaling",
+      "column": "configurations_ascii",
+      "csv_value": 124,
+      "value_used": 124,
+      "source_path": "coverage.C.planned_cases",
+      "source_value": 124,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Sparse scaling",
+      "column": "weighted_workloads",
+      "csv_value": 39,
+      "value_used": 39,
+      "source_path": "coverage.C.workloads",
+      "source_value": 39,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Sparse scaling",
+      "column": "planned_cases",
+      "csv_value": 124,
+      "source_path": "factual_strings.tex \\ResultCPlanned",
+      "source_value": "124",
+      "match": true
+    },
+    {
+      "row": "Sparse scaling",
+      "column": "configurations_display",
+      "csv_value": "40x3+4",
+      "source_path": "provenance/frozen_latex/main.tex tab:design",
+      "source_value": "$40\\times3+4$",
+      "match": true
+    },
+    {
+      "row": "Matched FULL comparison",
+      "column": "configurations_ascii",
+      "csv_value": 28,
+      "value_used": 28,
+      "source_path": "coverage.Cfull.planned_cases",
+      "source_value": 28,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Matched FULL comparison",
+      "column": "weighted_workloads",
+      "csv_value": 25,
+      "value_used": 25,
+      "source_path": "coverage.Cfull.workloads",
+      "source_value": 25,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Matched FULL comparison",
+      "column": "planned_cases",
+      "csv_value": 28,
+      "source_path": "factual_strings.tex \\ResultCfullPlanned",
+      "source_value": "28",
+      "match": true
+    },
+    {
+      "row": "Grouping and placement",
+      "column": "configurations_ascii",
+      "csv_value": 28,
+      "value_used": 28,
+      "source_path": "coverage.D.planned_cases",
+      "source_value": 28,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Grouping and placement",
+      "column": "weighted_workloads",
+      "csv_value": 20,
+      "value_used": 20,
+      "source_path": "coverage.D.workloads",
+      "source_value": 20,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Grouping and placement",
+      "column": "planned_cases",
+      "csv_value": 28,
+      "source_path": "factual_strings.tex \\ResultDPlanned",
+      "source_value": "28",
+      "match": true
+    },
+    {
+      "row": "Finite reports",
+      "column": "configurations_ascii",
+      "csv_value": 8,
+      "value_used": 8,
+      "source_path": "coverage.E.planned_cases",
+      "source_value": 8,
+      "match": true,
+      "csv_cell_was_empty": false
+    },
+    {
+      "row": "Finite reports",
+      "column": "weighted_workloads",
+      "csv_value": null,
+      "value_used": 8,
+      "source_path": "coverage.E.primary_instances",
+      "source_value": 8,
+      "match": true,
+      "csv_cell_was_empty": true
+    },
+    {
+      "row": "Finite reports",
+      "column": "planned_cases",
+      "csv_value": 8,
+      "source_path": "factual_strings.tex \\ResultEPlanned",
+      "source_value": "8",
+      "match": true
+    }
+  ],
+  "n_checks": 19,
+  "checks_all_match": true,
+  "method": "Mechanical comparison against archived summary.json coverage{} and frozen factual_strings.tex macros; no re-solve."
+}

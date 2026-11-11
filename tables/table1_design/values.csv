@@ -1,0 +1,7 @@
+row_label,suite_id,configurations_display,configurations_ascii,planned_cases,weighted_workloads,privacy_workload_conditions,observed_cases,terminal_cases,status
+Activation,A,216,216,216,66,198,216,216,VERIFIED
+Budgeted approximation,B,32,32,32,5,20,32,32,VERIFIED
+Sparse scaling,C,40x3+4,124,124,39,39,124,124,VERIFIED
+Matched FULL comparison,Cfull,28,28,28,25,25,28,28,VERIFIED
+Grouping and placement,D,28,28,28,20,24,28,28,VERIFIED
+Finite reports,E,8,8,8,,,8,8,VERIFIED

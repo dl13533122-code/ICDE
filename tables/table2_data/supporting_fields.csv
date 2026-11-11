@@ -1,0 +1,7 @@
+field,electricity,intel
+calendar_days,1462,38
+qualified_rows,,1831276
+clipped_rows_or_cells,839614,0
+source_file,/home/fy/icde02_revision_20261110/analysis20261110/input/remote_results/fuyuespark/prepared/electricity_coverage.json,/home/fy/icde02_revision_20261110/analysis20261110/input/remote_results/fuyuespark/prepared/intel_coverage.json
+qualification_rule,,"all four fields finite; -50<=T<=100, 0<=H<=100, 2<=V<=3; light bound diagnostic only"
+normalization,"clamp(kW/4,0,1000)/1000; per-reading float32, float64 day sum, float32 day mean","each qualified temperature clamp(T,0,100)/100 before daily mean"

@@ -1,0 +1,11 @@
+{
+  "distribution_language": "English",
+  "excluded_front_page_documents_present": 0,
+  "cjk_filename_matches": 0,
+  "cjk_text_or_decoded_json_matches": 0,
+  "cjk_pdf_text_or_metadata_matches": 0,
+  "numeric_data_and_executable_code_unchanged": true,
+  "checked_on": "2026-11-11",
+  "scope": "All distributed paths and UTF-8 text, decoded JSON strings, PDF text/metadata/annotations, and PNG metadata. Plot image labels share the checked English SVG/PDF outputs.",
+  "protected_code_data_figure_and_pdf_files_byte_identical": 231
+}

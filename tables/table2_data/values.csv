@@ -1,0 +1,7 @@
+row_label,unit,electricity_value,intel_value,electricity_dataset,intel_dataset,status
+Raw measurement rows,rows,140256,2313682,electricity,intel,VERIFIED
+Public owners,owners,370,54,electricity,intel,VERIFIED
+Complete/qualified dates,dates,1460,28,electricity,intel,VERIFIED
+Evaluation dates,dates,487,10,electricity,intel,VERIFIED
+Available evaluation owner-days,owner-days,180190,311,electricity,intel,VERIFIED
+Evaluation roster owner-days,owner-days,180190,540,electricity,intel,VERIFIED

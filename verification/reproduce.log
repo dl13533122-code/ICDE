@@ -1,0 +1,194 @@
+{
+  "figures": {
+    "fig1_activation": {
+      "general_only_pairs": 8,
+      "matched_pairs": 216,
+      "rows": {
+        "panel_a_heatmap_general_activation.csv": 54,
+        "panel_b_heatmap_uniform_activation.csv": 54,
+        "panel_c_scatter_U_vs_H.csv": 216
+      }
+    },
+    "fig2_local_gap": {
+      "distinct_local_conditions": 20,
+      "local_admitted": 32,
+      "local_planned": 32,
+      "planned_triangle": 5,
+      "rows": {
+        "panel_a": 5,
+        "panel_b_points": 32,
+        "panel_b_summary": 16
+      },
+      "triangle_brackets": 5
+    },
+    "fig3_scale": {
+      "bars_plotted": 8,
+      "fallback_case_ids": [],
+      "rows": {
+        "panel_a_sparse_planning_times.csv": 17,
+        "panel_b_full_comparison_times.csv": 12,
+        "panel_c_loss_at_1024.csv": 8
+      }
+    },
+    "fig4_grouping": {
+      "matched_pairs_by_family": {
+        "class": 6,
+        "iid": 6,
+        "mixed": 6,
+        "range": 6
+      },
+      "planned_scalar_plans": 1344,
+      "rows": {
+        "panel_a_categories_frontier.csv": 16,
+        "panel_b_ranges_frontier.csv": 16
+      },
+      "verified_scalar_plans": 1344
+    },
+    "fig5_finite_utility": {
+      "observed_attempt_rows": 8448,
+      "planned_attempt_rows": 8448,
+      "planned_workloads": 8,
+      "primary_workloads": 8,
+      "rows": {
+        "panel_a_intel_utility.csv": 12,
+        "panel_b_electricity_utility.csv": 12,
+        "panel_c_paired_H_minus_U.csv": 8
+      }
+    },
+    "fig6_physical_execution": {
+      "forced_abort_observed": 16,
+      "fresh_retry_validated": 16,
+      "main_ordinary_validated": 160,
+      "no_sharing_validated": 10,
+      "observed_attempts": 202,
+      "observed_cases": 17,
+      "paired_main_conditions": 8,
+      "paired_no_sharing_conditions": 1,
+      "planned_attempts": 202,
+      "rows": {
+        "panel_a_matched_host_traffic.csv": 8,
+        "panel_b_matched_online_time.csv": 8,
+        "panel_c_partial_reuse.csv": 3
+      }
+    }
+  },
+  "generated_by": "extract_plotted_values.py",
+  "schema": "icde02-plotted-values-v1",
+  "source_physical_summary_bytes": 1146929,
+  "source_physical_summary_sha256": "047d7d7212d707b2f4cb47f47f4bbe83db1f77801547a9a1e8dba2dfbd082a27",
+  "source_summary_bytes": 7795813,
+  "source_summary_sha256": "a528deb51db69b225cdc080e6d0bda2d6eee7216f6ec97f8366696d5b826bf7c",
+  "tables": {
+    "table1_design": {
+      "cells": 18,
+      "rows": 6
+    },
+    "table2_data": {
+      "cells": 12,
+      "rows": 6
+    }
+  }
+}
+Re-extracted and matched 21 CSV files byte for byte.
+{
+  "panels": 17,
+  "source_rows": 489,
+  "annotations": {
+    "activation": {
+      "all_scatter_rows": 216,
+      "nonuniform_only": 8,
+      "general": 97,
+      "uniform": 89,
+      "ties": 119
+    },
+    "local_gap": {
+      "small_budget_excess_percent_upper": 0.02609379,
+      "band_kind": "objective brackets and workload variation, not confidence intervals"
+    },
+    "planning_speedup": {
+      "n_owners": 128,
+      "ratio_of_medians_FULL_over_H": 219.95731608667,
+      "FULL_direct_rows_at_128": 3,
+      "H_rows_at_128": 4,
+      "not_pairwise_speedup": true
+    },
+    "finite_report_groupby_gain_percent": 36.221113077566514,
+    "reuse_savings": {
+      "formula": "median_i [100 * (1 - 1 / (no_reuse_i / reuse_i))]",
+      "metrics": [
+        "App. bytes",
+        "TLS records",
+        "Online time"
+      ],
+      "median_savings_percent": [
+        39.85330073349633,
+        42.054188834524396,
+        7.62739837589515
+      ],
+      "range_transformation": "transform all ten paired values, then take median and full range",
+      "paired_repetitions": 10
+    }
+  },
+  "boundary_warnings": []
+}
+{
+  "figure": "supplement_execution",
+  "comparisons": 8,
+  "reuse_pairs_per_metric": 10,
+  "range_checks": [
+    {
+      "figure": "supplement_execution",
+      "axis": 0,
+      "limits": [
+        0.15,
+        1.82,
+        -0.65,
+        7.6
+      ],
+      "data_bounds": [
+        0.15000000000000002,
+        1.6904372626415798,
+        -0.21,
+        7.21
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "supplement_execution",
+      "axis": 1,
+      "limits": [
+        0.0,
+        54.0,
+        -0.75,
+        2.65
+      ],
+      "data_bounds": [
+        4.89497644929715,
+        42.07199651450419,
+        -0.23,
+        2.23
+      ],
+      "all_data_and_intervals_visible": true
+    }
+  ],
+  "boundary_warnings": []
+}
+Rendered Figures 2–7 and S1 as PDF, SVG, and PNG in generated/figures/.
+{
+  "owners": 8,
+  "queries": [
+    "global",
+    "group_0",
+    "group_1",
+    "range_0",
+    "range_1",
+    "overlap_0",
+    "overlap_1",
+    "overlap_2"
+  ],
+  "edges": 8,
+  "loss": 24.0,
+  "privacy_passed": true,
+  "worst_rho_upper": 0.4687499882816241,
+  "note": "Small synthetic implementation check; not a rerun of paper measurements."
+}

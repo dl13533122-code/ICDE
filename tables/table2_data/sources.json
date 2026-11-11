@@ -1,0 +1,257 @@
+{
+  "object_id": "table2_data",
+  "label": "tab:data",
+  "paper_number": "TABLE II",
+  "pdf_page": 10,
+  "frozen_latex_file": "provenance/frozen_latex/main.tex",
+  "frozen_latex_lines": {
+    "start": 1014,
+    "end": 1025
+  },
+  "values_csv": "tables/table2_data/values.csv",
+  "values_csv_sha256": "d257e9dda2e5b7527b306b27a027adb669d1def8a9a18883b28fa8be13835061",
+  "supporting_csv": "tables/table2_data/supporting_fields.csv",
+  "supporting_csv_sha256": "422491df9f297b6837aa97b892808c9b56dcc36a086b6f2bff6ed3f703f7f21a",
+  "summary_path": "data/analysis_v3/summary.json",
+  "summary_sha256": "a528deb51db69b225cdc080e6d0bda2d6eee7216f6ec97f8366696d5b826bf7c",
+  "cell_accounting": {
+    "rows": 6,
+    "row_labels": 6,
+    "displayed_numeric_cells": 12,
+    "populated_numeric_cells": 12,
+    "note": "12 numeric cells = 6 rows x (Electricity, Intel). supporting_fields.csv keeps empty cells empty where the archive has no value."
+  },
+  "column_sources": {
+    "electricity_value": "summary.dataset_coverage[electricity].<field>",
+    "intel_value": "summary.dataset_coverage[intel].<field>",
+    "row_label_to_field": {
+      "Raw measurement rows": "raw_rows",
+      "Public owners": "owner_count",
+      "Complete/qualified dates": "valid_days",
+      "Evaluation dates": "evaluation_days",
+      "Available evaluation owner-days": "evaluation_available_owner_days",
+      "Evaluation roster owner-days": "evaluation_roster_owner_days"
+    }
+  },
+  "checks": [
+    {
+      "row": "Raw measurement rows",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 140256,
+      "source_path": "dataset_coverage[electricity].raw_rows",
+      "source_value": 140256,
+      "match": true
+    },
+    {
+      "row": "Raw measurement rows",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 2313682,
+      "source_path": "dataset_coverage[intel].raw_rows",
+      "source_value": 2313682,
+      "match": true
+    },
+    {
+      "row": "Raw measurement rows",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 140256,
+      "source_path": "factual_strings.tex \\ResultElectricityRawRows",
+      "source_value": "140256",
+      "match": true
+    },
+    {
+      "row": "Raw measurement rows",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 2313682,
+      "source_path": "factual_strings.tex \\ResultIntelRawRows",
+      "source_value": "2313682",
+      "match": true
+    },
+    {
+      "row": "Public owners",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 370,
+      "source_path": "dataset_coverage[electricity].owner_count",
+      "source_value": 370,
+      "match": true
+    },
+    {
+      "row": "Public owners",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 54,
+      "source_path": "dataset_coverage[intel].owner_count",
+      "source_value": 54,
+      "match": true
+    },
+    {
+      "row": "Public owners",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 370,
+      "source_path": "factual_strings.tex \\ResultElectricityOwnerCount",
+      "source_value": "370",
+      "match": true
+    },
+    {
+      "row": "Public owners",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 54,
+      "source_path": "factual_strings.tex \\ResultIntelOwnerCount",
+      "source_value": "54",
+      "match": true
+    },
+    {
+      "row": "Complete/qualified dates",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 1460,
+      "source_path": "dataset_coverage[electricity].valid_days",
+      "source_value": 1460,
+      "match": true
+    },
+    {
+      "row": "Complete/qualified dates",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 28,
+      "source_path": "dataset_coverage[intel].valid_days",
+      "source_value": 28,
+      "match": true
+    },
+    {
+      "row": "Complete/qualified dates",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 1460,
+      "source_path": "factual_strings.tex \\ResultElectricityValidDays",
+      "source_value": "1460",
+      "match": true
+    },
+    {
+      "row": "Complete/qualified dates",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 28,
+      "source_path": "factual_strings.tex \\ResultIntelValidDays",
+      "source_value": "28",
+      "match": true
+    },
+    {
+      "row": "Evaluation dates",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 487,
+      "source_path": "dataset_coverage[electricity].evaluation_days",
+      "source_value": 487,
+      "match": true
+    },
+    {
+      "row": "Evaluation dates",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 10,
+      "source_path": "dataset_coverage[intel].evaluation_days",
+      "source_value": 10,
+      "match": true
+    },
+    {
+      "row": "Evaluation dates",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 487,
+      "source_path": "factual_strings.tex \\ResultElectricityEvaluationDays",
+      "source_value": "487",
+      "match": true
+    },
+    {
+      "row": "Evaluation dates",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 10,
+      "source_path": "factual_strings.tex \\ResultIntelEvaluationDays",
+      "source_value": "10",
+      "match": true
+    },
+    {
+      "row": "Available evaluation owner-days",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 180190,
+      "source_path": "dataset_coverage[electricity].evaluation_available_owner_days",
+      "source_value": 180190,
+      "match": true
+    },
+    {
+      "row": "Available evaluation owner-days",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 311,
+      "source_path": "dataset_coverage[intel].evaluation_available_owner_days",
+      "source_value": 311,
+      "match": true
+    },
+    {
+      "row": "Available evaluation owner-days",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 180190,
+      "source_path": "factual_strings.tex \\ResultElectricityEvaluationAvailableOwnerDays",
+      "source_value": "180190",
+      "match": true
+    },
+    {
+      "row": "Available evaluation owner-days",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 311,
+      "source_path": "factual_strings.tex \\ResultIntelEvaluationAvailableOwnerDays",
+      "source_value": "311",
+      "match": true
+    },
+    {
+      "row": "Evaluation roster owner-days",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 180190,
+      "source_path": "dataset_coverage[electricity].evaluation_roster_owner_days",
+      "source_value": 180190,
+      "match": true
+    },
+    {
+      "row": "Evaluation roster owner-days",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 540,
+      "source_path": "dataset_coverage[intel].evaluation_roster_owner_days",
+      "source_value": 540,
+      "match": true
+    },
+    {
+      "row": "Evaluation roster owner-days",
+      "column": "electricity_value",
+      "dataset": "electricity",
+      "csv_value": 180190,
+      "source_path": "factual_strings.tex \\ResultElectricityEvaluationRosterOwnerDays",
+      "source_value": "180190",
+      "match": true
+    },
+    {
+      "row": "Evaluation roster owner-days",
+      "column": "intel_value",
+      "dataset": "intel",
+      "csv_value": 540,
+      "source_path": "factual_strings.tex \\ResultIntelEvaluationRosterOwnerDays",
+      "source_value": "540",
+      "match": true
+    }
+  ],
+  "n_checks": 24,
+  "checks_all_match": true,
+  "method": "Mechanical comparison against archived summary.json dataset_coverage[] and frozen factual_strings.tex macros; no re-solve, no imputation."
+}

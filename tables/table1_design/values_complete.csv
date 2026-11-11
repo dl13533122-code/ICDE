@@ -1,0 +1,7 @@
+row_label,suite_id,configurations_display,configurations_ascii,planned_cases,weighted_workloads,privacy_workload_conditions,observed_cases,terminal_cases,status,weighted_workloads_source
+Activation,A,216,216,216,66,198,216,216,VERIFIED,coverage.A.workloads
+Budgeted approximation,B,32,32,32,5,20,32,32,VERIFIED,coverage.B.workloads
+Sparse scaling,C,40x3+4,124,124,39,39,124,124,VERIFIED,coverage.C.workloads
+Matched FULL comparison,Cfull,28,28,28,25,25,28,28,VERIFIED,coverage.Cfull.workloads
+Grouping and placement,D,28,28,28,20,24,28,28,VERIFIED,coverage.D.workloads
+Finite reports,E,8,8,8,8,,8,8,VERIFIED,coverage.E.primary_instances

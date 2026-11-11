@@ -1,0 +1,6 @@
+..................................s........s............................ [ 79%]
+...................                                                      [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_intel_roster.py: Original processed data not bundled: data/processed/intel_daily.json
+SKIPPED [1] tests/test_intel_roster.py: Original processed data not bundled: data/processed/electricity_verification.json, data/processed/electricity_kwh_clipped.f32
+89 passed, 2 skipped in 8.72s

@@ -1,0 +1,400 @@
+{
+  "panels": {
+    "fig1_activation/panel_a_heatmap_general_activation.csv": {
+      "rows": 54,
+      "sha256": "a84822930a87665c0dd9e7e47a7781f8250c299cbe8c8b67b050412d937c23aa"
+    },
+    "fig1_activation/panel_b_heatmap_uniform_activation.csv": {
+      "rows": 54,
+      "sha256": "4a4aa17729fb7c94b78c667875dbbec01b0b0b08f71f98fa8c249d15c2d812b4"
+    },
+    "fig1_activation/panel_c_scatter_U_vs_H.csv": {
+      "rows": 216,
+      "sha256": "444194e5e51c451766db72349b062ebb973481903b2609cbb88087755f2f4fed"
+    },
+    "fig2_local_gap/panel_a_triangle_brackets.csv": {
+      "rows": 5,
+      "sha256": "1ed98fe1b4ffb17671f5994018045aee024522172ff69e3f92671ed049e93681"
+    },
+    "fig2_local_gap/panel_b_candidate_excess_summary.csv": {
+      "rows": 16,
+      "sha256": "f002f518915fd29ca938e69ae1d8994559eb121cf450cd9d5f1defdb8191a0b1"
+    },
+    "fig3_scale/panel_a_sparse_planning_times.csv": {
+      "rows": 17,
+      "sha256": "21cb0622ae7a66f29272bfb6a95b92a0cc25480fcfffb0179a6fda322004f522"
+    },
+    "fig3_scale/panel_b_full_comparison_times.csv": {
+      "rows": 12,
+      "sha256": "1e507e134c16e887f8a489ab6ed4a867ab32f2ac45dfbb8022fdf4945fb10e22"
+    },
+    "fig3_scale/panel_c_loss_at_1024.csv": {
+      "rows": 8,
+      "sha256": "a69a23e48b7bc5ed8e39933fdbb8c48c7242d9d0f5de98a2402d5d1febf0cc36"
+    },
+    "fig4_grouping/panel_a_categories_frontier.csv": {
+      "rows": 16,
+      "sha256": "16befcb0a1dd80b5fbfe192c62bd9db140977bdd2ab5614d247514814c98921e"
+    },
+    "fig4_grouping/panel_b_ranges_frontier.csv": {
+      "rows": 16,
+      "sha256": "b8e2093668982a0d3d11057661ea9cdc7632af4e2252195bd53aedb63e8c8fed"
+    },
+    "fig4_grouping/panel_c_paired_plan_changes.csv": {
+      "rows": 24,
+      "sha256": "ceaf99a906c0b282cb4967306c145f25a03d2a09a34e08f116b2c79f0bee9629"
+    },
+    "fig5_finite_utility/panel_a_intel_utility.csv": {
+      "rows": 12,
+      "sha256": "abfa6406a957ae9d3aa8c9dce8689298e53afcceb47ce246379096976a348872"
+    },
+    "fig5_finite_utility/panel_b_electricity_utility.csv": {
+      "rows": 12,
+      "sha256": "fa381b168ea2d20f4c1cb1cf2269197b0cf136ed129de81ae8bf18bd54fd6144"
+    },
+    "fig5_finite_utility/panel_c_paired_H_minus_U.csv": {
+      "rows": 8,
+      "sha256": "844f95bd6fc573bee7c327bae89ebeaada48a7b7e1d4907923ce53c6e07e6c3e"
+    },
+    "fig6_physical_execution/panel_a_matched_host_traffic.csv": {
+      "rows": 8,
+      "sha256": "44857e7a9cbdb49e3bc40735d4b7ff1e20662389613903aa9ea61180223f6a38"
+    },
+    "fig6_physical_execution/panel_b_matched_online_time.csv": {
+      "rows": 8,
+      "sha256": "bcdf9cdcf65d82c96ba13faeb33368047d4cff240d338fae5be62f974faf69a8"
+    },
+    "fig6_physical_execution/panel_c_partial_reuse.csv": {
+      "rows": 3,
+      "sha256": "5943073435dbcfce149b5aa4808677ee91879376de209fe25a60921f4ed85955"
+    }
+  },
+  "annotations": {
+    "activation": {
+      "all_scatter_rows": 216,
+      "nonuniform_only": 8,
+      "general": 97,
+      "uniform": 89,
+      "ties": 119
+    },
+    "local_gap": {
+      "small_budget_excess_percent_upper": 0.02609379,
+      "band_kind": "objective brackets and workload variation, not confidence intervals"
+    },
+    "planning_speedup": {
+      "n_owners": 128,
+      "ratio_of_medians_FULL_over_H": 219.95731608667,
+      "FULL_direct_rows_at_128": 3,
+      "H_rows_at_128": 4,
+      "not_pairwise_speedup": true
+    },
+    "finite_report_groupby_gain_percent": 36.221113077566514,
+    "reuse_savings": {
+      "formula": "median_i [100 * (1 - 1 / (no_reuse_i / reuse_i))]",
+      "metrics": [
+        "App. bytes",
+        "TLS records",
+        "Online time"
+      ],
+      "median_savings_percent": [
+        39.85330073349633,
+        42.054188834524396,
+        7.62739837589515
+      ],
+      "range_transformation": "transform all ten paired values, then take median and full range",
+      "paired_repetitions": 10
+    }
+  },
+  "artist_boundary_warnings": [],
+  "data_range_checks": [
+    {
+      "figure": "activation",
+      "axis": 0,
+      "limits": [
+        -0.5,
+        8.5,
+        -0.5,
+        5.5
+      ],
+      "data_bounds": [
+        -0.5,
+        8.5,
+        -0.5,
+        5.5
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "activation",
+      "axis": 1,
+      "limits": [
+        -0.5,
+        8.5,
+        -0.5,
+        5.5
+      ],
+      "data_bounds": [
+        -0.5,
+        8.5,
+        -0.5,
+        5.5
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "activation",
+      "axis": 2,
+      "limits": [
+        -0.025,
+        1.055,
+        -0.025,
+        1.065
+      ],
+      "data_bounds": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "local_gap",
+      "axis": 0,
+      "limits": [
+        0.006801176275750969,
+        0.1435872943746294,
+        0.03105,
+        0.0336
+      ],
+      "data_bounds": [
+        0.0078125,
+        0.125,
+        0.03125,
+        0.03339204476367347
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "local_gap",
+      "axis": 1,
+      "limits": [
+        0.052556025953357156,
+        2.378414230005442,
+        -0.06,
+        1.4
+      ],
+      "data_bounds": [
+        0.0625,
+        2.0,
+        0.0,
+        1.27910322
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "scale",
+      "axis": 0,
+      "limits": [
+        26.908685288118864,
+        1217.7480857627863,
+        0.15,
+        32.0
+      ],
+      "data_bounds": [
+        32.0,
+        1024.0,
+        0.181329,
+        16.708233
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "scale",
+      "axis": 1,
+      "limits": [
+        14.420007401773285,
+        142.0248924246842,
+        0.25,
+        300.0
+      ],
+      "data_bounds": [
+        16.0,
+        128.0,
+        0.315636,
+        170.647832
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "scale",
+      "axis": 2,
+      "limits": [
+        -0.03,
+        1.06,
+        -0.65,
+        3.5
+      ],
+      "data_bounds": [
+        0.104450198926,
+        1.0,
+        0.0,
+        3.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "grouping",
+      "axis": 0,
+      "limits": [
+        535.0,
+        730.0,
+        0.16,
+        1.06
+      ],
+      "data_bounds": [
+        553.5,
+        713.5,
+        0.2142353456116867,
+        1.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "grouping",
+      "axis": 1,
+      "limits": [
+        2150.0,
+        2375.0,
+        0.36,
+        0.48
+      ],
+      "data_bounds": [
+        2175.875,
+        2344.75,
+        0.39383867366347514,
+        0.46559839951741616
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "grouping",
+      "axis": 2,
+      "limits": [
+        -36.0,
+        85.0,
+        -0.65,
+        3.5
+      ],
+      "data_bounds": [
+        -30.29982363,
+        85.0,
+        -0.20500000000000002,
+        3.205
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "finite_utility",
+      "axis": 0,
+      "limits": [
+        -0.04,
+        1.2,
+        -0.6,
+        3.48
+      ],
+      "data_bounds": [
+        0.021284990741,
+        1.140095572346,
+        -0.4,
+        3.19
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "finite_utility",
+      "axis": 1,
+      "limits": [
+        -0.04,
+        1.2,
+        -0.6,
+        3.48
+      ],
+      "data_bounds": [
+        0.005578235476,
+        1.106612879679,
+        -0.4,
+        3.19
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "finite_utility",
+      "axis": 2,
+      "limits": [
+        -33.0,
+        30.0,
+        -0.6,
+        7.5
+      ],
+      "data_bounds": [
+        -32.0,
+        26.63277711,
+        0.0,
+        7.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "physical_execution",
+      "axis": 0,
+      "limits": [
+        300.0,
+        3550.0,
+        -0.5,
+        7.5
+      ],
+      "data_bounds": [
+        553.5,
+        3041.875,
+        0.0,
+        7.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "physical_execution",
+      "axis": 1,
+      "limits": [
+        0.73,
+        1.82,
+        -0.5,
+        7.5
+      ],
+      "data_bounds": [
+        0.7775845186674427,
+        1.6904372626415798,
+        0.0,
+        7.0
+      ],
+      "all_data_and_intervals_visible": true
+    },
+    {
+      "figure": "physical_execution",
+      "axis": 2,
+      "limits": [
+        0.0,
+        57.0,
+        -0.6,
+        2.55
+      ],
+      "data_bounds": [
+        0.0,
+        42.07199651450419,
+        -0.165,
+        2.165
+      ],
+      "all_data_and_intervals_visible": true
+    }
+  ]
+}

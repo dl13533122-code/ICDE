@@ -1,0 +1,18 @@
+{
+  "owners": 8,
+  "queries": [
+    "global",
+    "group_0",
+    "group_1",
+    "range_0",
+    "range_1",
+    "overlap_0",
+    "overlap_1",
+    "overlap_2"
+  ],
+  "edges": 8,
+  "loss": 24.0,
+  "privacy_passed": true,
+  "worst_rho_upper": 0.4687499882816241,
+  "note": "Small synthetic implementation check; not a rerun of paper measurements."
+}
